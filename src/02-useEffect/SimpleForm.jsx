@@ -7,14 +7,6 @@ export const SimpleForm = () => {
         email: "brandon@gmail.com",
     });
 
-    useEffect(() => {
-        // console.log("Email state changed", email);
-    }, [email]);
-
-    useEffect(() => {
-        // console.log("Username state changed", username);
-    }, [username]);
-
     const handleInputChange = ({ target }) => {
         const { name, value } = target;
         setFormState((formState) => ({

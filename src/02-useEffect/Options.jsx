@@ -1,13 +1,10 @@
 import { ButtonTroll } from "./ButtonTroll";
 
 import JSConfetti from "js-confetti";
-
 const jsConfetti = new JSConfetti();
 
 export const Options = () => {
-    const handleConfetti = () => {
-        jsConfetti.addConfetti({ emojis: ["🧡"] });
-    };
+    const handleConfetti = () => jsConfetti.addConfetti({ emojis: ["🧡"] });
 
     return (
         <>
