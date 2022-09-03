@@ -18,6 +18,7 @@ import { BrowserRouter } from "react-router-dom";
 // import { Padre } from "./07-tarea-memo/Padre";
 // import "./08-useReducer/intro-reducer";
 // import { TodoApp } from "./08-useReducer/TodoApp";
+// import { MemeGenerator } from "./MemeGenerator";
 import { App } from "./09-useContext/App";
 
 ReactDOM.createRoot(document.getElementById("root")).render(

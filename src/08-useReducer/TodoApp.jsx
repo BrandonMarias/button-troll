@@ -5,12 +5,11 @@ export const TodoApp = () => {
         useTodo();
 
     return (
-        <>
+        <div className="container">
             <h1>
-                TodoApp: {todoCount}, <small>Pending: {undoneCount}</small>
+                Todos: {todoCount}, <small>Pending: {undoneCount}</small>
             </h1>
             <hr />
-
             <div className="row">
                 <div className="col-md-7">
                     <TodoList
@@ -25,6 +24,6 @@ export const TodoApp = () => {
                     <TodoAdd addNewTodo={addTodo} />
                 </div>
             </div>
-        </>
+        </div>
     );
 };
