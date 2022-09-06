@@ -10,6 +10,7 @@ export const TodoItem = ({ todo, i, onRemoveTodo, onToggleTodo }) => {
                 className={`align-self-center ${
                     todo.done ? "text-decoration-line-through" : ""
                 }`}
+                aria-label="span"
             >
                 {i + 1}. {todo.desc}
             </span>
